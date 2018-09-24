@@ -1,0 +1,59 @@
+html{
+    height: 100%;
+}
+body {
+    background-image: url(../images/leaves-pattern.png);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+#Header{
+    position:fixed;
+    top:0;
+    margin:0;
+    text-align:left;
+    font-size: 30px;
+    width:100%;
+    background: #ffffff;
+    border-bottom-style:solid;
+    border-color: #cccccc;
+    flex-shrink: 0;
+    z-index: 3;
+}
+#headerbox {
+    width: 960px;
+    margin-left: 15%;
+    position: relative;
+}
+#NameBox {
+    float:left;
+    font-style:normal;
+}
+#Name {
+    font-family: Georgia, Times, Times New Roman, serif;
+    margin:0;
+    padding:10px;
+    font-size:20px;
+    background-color:#4aaaa5;
+    color:#ffffff;
+}
+#Links {
+    float: right;
+    padding: 10px;
+    color:#666666;
+    font-size:16px;
+    font-style:normal;
+}
+#btnBox {
+    padding-top: 50px;
+    background-color: green;
+}
+#magicBox {
+    padding: 10px;
+}
+#gphyBox {
+    padding: 10px;
+}
+#addBox {
+    padding: 10px;
+}
