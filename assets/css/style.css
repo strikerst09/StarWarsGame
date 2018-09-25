@@ -2,7 +2,7 @@ html{
     height: 100%;
 }
 body {
-    background-image: url(../images/leaves-pattern.png);
+    background-image: url(backgroundimg.jpg);
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@ body {
     text-align:left;
     font-size: 30px;
     width:100%;
-    background: #ffffff;
+    background: black;
     border-bottom-style:solid;
     border-color: #cccccc;
     flex-shrink: 0;
@@ -44,16 +44,62 @@ body {
     font-size:16px;
     font-style:normal;
 }
-#btnBox {
+
+/* Addition of Star Wars Game Information */
+.swheader {
     padding-top: 50px;
-    background-color: green;
+    text-align: center;
+    color: rgb(17, 84, 230);
+}
+.redtext {
+    color: rgb(192, 0, 0);
+}
+#btnBox {
+    padding-top: 10px;
 }
 #magicBox {
     padding: 10px;
 }
+#gphyCntnr {
+    width: 70%;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.swtitle {
+    text-align: center;
+}
 #gphyBox {
     padding: 10px;
 }
+#addCard {
+    height: 150px;
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
 #addBox {
     padding: 10px;
+}
+.srchBtn {
+    border-style: solid;
+    border-color: green;
+    padding: 2px;
+    background-color: black;
+    color: white;
+}
+.gif {
+    padding: 10px;
+    width: auto;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+}
+#magicBox {
+    color: rgb(123, 53, 204);
+}
+.ratingBox {
+    float: left;
+    padding: 5px;
+    width: auto;
 }

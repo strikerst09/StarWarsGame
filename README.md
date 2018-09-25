@@ -1,1 +1,1 @@
-# StarWarsGame
+# Star Wars GIF using GIPHY's API! Have fun, and trust the Force!
